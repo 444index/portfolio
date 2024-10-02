@@ -1,0 +1,105 @@
+<!DOCTYPE html> <!--Error de mi portfolio: no pude agregarle la imagen a la pagina-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body style="background-color: rgb(205, 233, 224);">
+        <header class="header">
+            <div class="container">
+                <img src="miperfil.jpeg" alt="miPerfil" class="foto">
+                <h1>Alma Alegre</h1>
+                <p>¡Hola! Soy programadora web</p>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Alma Alegre</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#sobreMi">Acerca de mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+            <section id="galeria-de-ideas"></section>
+            <h2>Proyectos</h2> <!--A quien vea esto: lo primero que tenia en mente era poner proyectos pero no habia subido nada lindo hasta el momento y preferi poner cosas que me gustan-->
+            <div class="galeria">
+                <div class="col"><a href="https://openlibrary.org/works/OL498556W/Die_Verwandlung?edition=key%3A/books/OL23105783M" target="_blank">La Metamorfosis</a>
+                <img src="https://ia801909.us.archive.org/view_archive.php?archive=/31/items/l_covers_0013/l_covers_0013_31.zip&file=0013312231-L.jpg" alt="Metamorfosis">
+                </div>
+                <div class="col"><a href="https://letterboxd.com/film/the-truman-show/" target="_blank">The Truman Show</a>
+                <img src="https://a.ltrbxd.com/resized/sm/upload/xx/io/jp/45/the-truman-show-0-1000-0-1500-crop.jpg?v=704ba393f7" alt="TheTrumanShow">
+                </div>
+                <div class="col"><a href="https://rateyourmusic.com/artist/gustavo-cerati" target="_blank">Bocanada</a>
+                <img src="https://e.snmc.io/i/600/w/9f3c814a9955a89c1cd48b938e189c41/10058214/gustavo-cerati-bocanada-cover-art.png" alt="Bocanada">
+                </div>
+            </div>
+            </section>
+
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                    <div class="proyecto">
+                        <img src="proyecto1.jpg" alt="Proyecto 1">
+                        <h3>Portfolio</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit accusantium qui sed. Quas corporis, officia rem ex blanditiis aliquam rerum eius commodi iste dignissimos, illo repellendus, ipsam necessitatibus voluptatem a!</p>
+                    </div>
+            </section>
+
+
+            <section id="sobreMi">
+                <h2>Acerca de mí</h2>
+                <hr>
+                    <p class="lead">
+                    Hola, mi nombre es Alma. Me gusta el diseño web (estoy desarrolando mis conocimientos en programación aún). De momento me gustaría crear experiencias digitales cómodas y atractivas. 
+                    </p>
+              </section>
+
+            <section id="contacto" style="background-color: rgb(245, 234, 233);">
+                <h2>Contacto</h2>
+                <form action="mailto:tucorreoelectronico@ejemplo.com" method="post" target="_blank" enctype="text/plain">
+                    <label for="name">Nombre:</label>
+                        <input id="name"type="text" name="Nombre" placeholder="Soy"  required>
+                        <br><br>
+                    <label for="email">Correo electrónico:</label>
+                        <input type="email" name="Email" placeholder="correo@example.com" id="email" required>
+                        <br><br>
+                    <label for="telephone">Número de teléfono:</label>
+                        <input type="tel" name="Tel" placeholder="Ingresá tu número" id="telephone">
+                        <br><br>
+                    <label for="message">Mensaje:</label>
+                        <textarea id="message"type="message" name="Mensaje" placeholder="Dejame un mensaje"></textarea>
+                        <br>
+                    <button class="button" type="submit">Enviar</button>
+                </form>
+
+                <footer>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>Dirección
+                            Remedios de Escalada de San Martín 533 <br>
+                            Villa Crespo, Buenos Aires <br>Argentina</p>
+                    </div>
+                    <div class="col-md-8">
+                        <ul class="list-inline">
+                            <a href="https://www.instagram.com/fundacionmediapila" target="_blank"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.facebook.com/fundacionmediapila" target="_blank"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/fundacionmediapila" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </ul>
+                    </div>
+                        <div class="copyright">
+                        <p>© 2024 Fundación Mediapila. Todos los derechos reservados.</p>
+                    </div>
+                </div>
+                </footer>
+            
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+        crossorigin="anonymous">      
+        </script>      
+    </body>
+</html>
